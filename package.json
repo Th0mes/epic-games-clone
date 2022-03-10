@@ -13,9 +13,11 @@
 		"test-all": "yarn lint && yarn check-types && yarn check-format && yarn build"
 	},
 	"dependencies": {
+		"@headlessui/react": "^1.5.0",
 		"next": "12.1.0",
 		"react": "17.0.2",
-		"react-dom": "17.0.2"
+		"react-dom": "17.0.2",
+		"react-icons": "^4.3.1"
 	},
 	"devDependencies": {
 		"@types/node": "17.0.21",
